@@ -1,12 +1,13 @@
-$secondary-color: #ffb428;
 $primary-color: #2b4141;
+$secondary-color: #ffb428;
 $show-home-image: true;
 $home-image: url(../img/home.jpg);
 $background-opacity: 0.6;
 
 /* transition mixin */
 @mixin easeOut{
-   transition: all 0.5s ease-out;}
+   transition: all 0.5s ease-out;
+}
 
 
 /* homepage-background image mixin */

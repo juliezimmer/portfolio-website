@@ -1,5 +1,6 @@
 // import _config.scss file
 @import 'config';
+@import 'menu';
 
 
 * {
@@ -12,12 +13,14 @@ body {
    color: #fff;
    height: 100%;
    margin: 0;
-   font-family: 'Segoe UI', Tahoma, Geneva, Berdana, sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    line-height: 1.5;
 }
 
 // Headings
-h1, h2, h3 { 
+h1, 
+h2, 
+h3 { 
    margin: 0; 
    font-weight: 400;
 
@@ -29,7 +32,7 @@ h1, h2, h3 {
    &.sm-heading {
       margin-bottom: 2rem;
       padding: 0.2rem 1rem;
-      background: rgba(lighten($primary-color, 2), 0.5);
+      /*background: rgba(lighten($primary-color, 2), 0.5); */
    }
 }
 
