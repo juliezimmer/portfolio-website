@@ -30,9 +30,10 @@ h3 {
 
    /* small heading */
    &.sm-heading {
+      font-size: 1.25rem;
       margin-bottom: 2rem;
       padding: 0.2rem 1rem;
-      /*background: rgba(lighten($primary-color, 2), 0.5); */
+     // background: rgba(lighten($primary-color, 2), 0.5); 
    }
 }
 
@@ -76,3 +77,4 @@ main {
       }
    }
 }
+@import 'mobile';
