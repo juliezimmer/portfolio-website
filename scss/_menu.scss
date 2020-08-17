@@ -109,7 +109,7 @@
 
       // targets the a tag of the current nav-item
       &.current > a {
-         color: #10A5A5; 
+         color: $secondary-color;
       }
    }
    // nav-link styling
@@ -125,7 +125,7 @@
       @include easeOut;
       
       &:hover {
-         color: #10A5A5;
+         color: $secondary-color;
       }
    }
 }
